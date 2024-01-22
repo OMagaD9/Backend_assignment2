@@ -9,7 +9,7 @@ To run the program, follow these steps:
 1. Open your terminal and navigate to the project folder:
 
    ```bash
-   cd /path/to/your/project
+   cd /your/folders/Backend_assignment2-main
    ```
 2. Install the necessary dependencies using npm:
    ```bash

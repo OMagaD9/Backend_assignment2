@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+  <title>Weather-Map</title>
+  <style>
+    body {
+      padding-top: 56px; 
+      margin-bottom: 60px; 
+      font-family: 'Arial', sans-serif; 
+      background-color: #f2f2f2; 
+      color: #333; 
+    }
+    .navbar {
+      background-color: #8b1616; 
+    }
+    .navbar-brand {
+      color: #000000; 
+    }
+    .navbar-toggler-icon {
+      background-color: #000000; 
+    }
+    .navbar-nav .nav-link {
+      color: #e30000; 
+      background-color: #000000;
+
+    }
+    .container {
+      background-color: #8b1616; 
+      border-radius: 10px; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+      padding: 20px; 
+    }
+    .lead {
+      font-size: 24px; 
+    .footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #8b1616; 
+      text-align: center;
+      padding: 10px;
+      color: #000000;
+    }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">Weather-Map</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/map?city=Astana">Open the map</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container mt-4">
+    <h1 class="mb-4">Explore Your City Map</h1>
+    <p class="lead mb-4">Discover the weather details and information about your city.</p>
+    <p class="mb-4">Enter your city name and click on "Search" to get started.</p>
+  </div>
+
+  <footer class="footer mt-5">
+    <div class="container">
+      <p>Magzhan Torebek SE-2205</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

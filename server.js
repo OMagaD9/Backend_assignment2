@@ -30,7 +30,7 @@ app.get("/map", async (req, res) => {
   const cityName = req.query.city;
 
   if (!cityName) {
-    return res.send("Please provide a city parameter in the URL, e.g., /map?city=London");
+    return res.send("Please provide a city parameter in the URL, e.g., /map?city=Moscow");
   }
 
   const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}`;
